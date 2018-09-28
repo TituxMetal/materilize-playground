@@ -1,0 +1,23 @@
+.box {
+  height: 200px;
+}
+
+.grid .col {
+  border: 1px solid grey;
+}
+
+.empty {
+  background-color: lightblue;
+  border-color: transparent;
+  height: 120px;
+}
+
+.shadows {
+  background-color: #eee;
+  color: #333;
+  padding: 2rem 0;
+}
+
+.collections {
+  /* color: grey; */
+}
