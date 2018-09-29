@@ -4,247 +4,208 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Materialize Playground</title>
+    <title>Photo Ninja</title>
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="app.css">
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
   </head>
-  <body class="grey darken-4 grey-text text-lighten-5">
-
-    <section class="container">
-      <h1>Materialize CSS</h1>
-      <h2>h2 title</h2>
-      <h3>h3 title</h3>
-      <h4>h4 title</h4>
-      <h5>h5 title</h5>
-      <h6>h6 title</h6>
-      <p>This is a simple paragraph</p>
-      <p class="flow-text">This is a flow-text paragraph</p>
-    </section>
-    <section class="container grid">
-      <h4>Grids</h4>
-      <p>Four colums on small and higher</p>
-      <div class="row">
-        <div class="col s3">content</div>
-        <div class="col s3">content</div>
-        <div class="col s3">content</div>
-        <div class="col s3">content</div>
-      </div>
-      <p>Two colums on small, Four colums on medium and higher</p>
-      <div class="row">
-        <div class="col s6 m3">content</div>
-        <div class="col s6 m3">content</div>
-        <div class="col s6 m3">content</div>
-        <div class="col s6 m3">content</div>
-      </div>
-      <p>One colums on small, Two colums on medium, Three colums on large and higher</p>
-      <div class="row">
-        <div class="col s12 m6 l4">content</div>
-        <div class="col s12 m6 l4">content</div>
-        <div class="col s12 m6 l4">content</div>
-        <div class="col s12 m6 l4">content</div>
-        <div class="col s12 m6 l4">content</div>
-        <div class="col s12 m6 l4">content</div>
-      </div>
-      <p>One colums on small, Two colums on medium, Three colums on large and Six on extra large</p>
-      <div class="row">
-        <div class="col s12 m6 l4 xl2">content</div>
-        <div class="col s12 m6 l4 xl2">content</div>
-        <div class="col s12 m6 l4 xl2">content</div>
-        <div class="col s12 m6 l4 xl2">content</div>
-        <div class="col s12 m6 l4 xl2">content</div>
-        <div class="col s12 m6 l4 xl2">content</div>
-      </div>
-      <p>One colums on small, Two colums on medium, Three colums on large and Six on extra large</p>
-      <div class="row">
-        <div class="col s12 m6 l4 xl2">content</div>
-        <div class="col s12 m6 l4 xl2">content</div>
-        <div class="col s12 m6 l4 xl2">content</div>
-        <div class="col s12 m6 l4 xl2">content</div>
-        <div class="col s12 m6 l4 xl2">content</div>
-        <div class="col s12 m6 l4 xl2">content</div>
-      </div>
-      <p>One colums on small and Two colums on medium with different size</p>
-      <div class="row">
-        <div class="col s12 m8">content</div>
-        <div class="col s12 m4">content</div>
-        <div class="col s12 m4">content</div>
-        <div class="col s12 m8">content</div>
-      </div>
-    </section>
-    <section class="container">
-      <h4 class="hide">Hide me on all screen sizes</h4>
-      <h4 class="hide-on-small-only">Hide me on small screen sizes</h4>
-      <h4 class="hide-on-med-only">Hide me on medium screen sizes</h4>
-      <h4 class="hide-on-large-only">Hide me on large screen sizes</h4>
-      <h4 class="hide-on-med-and-down">Hide me on medium & small screen sizes</h4>
-      <h4 class="hide-on-med-and-up">Hide me on medium & large screen sizes</h4>
-    </section>
-    <section class="container">
-      <h3 class="blue darken-4">Darken 4 Blue background</h3>
-      <h3 class="pink-text orange">Orange background and Pink text</h3>
-      <h3 class="purple lighten-2 brown-text">Lighten 2 Purple background and Brown text</h3>
-      <h3 class="teal darken-2 yellow-text text-lighten-3">Darken 2 Teal background and Lighten 3 Yellow text</h3>
-      <h3 class="yellow lighten-3 purple-text text-darken-2">Lighten 3 Yellow background and Darken 2 Purple text</h3>
-    </section>
-    <section class="container">
-      <h5 class="center-align">Center alignment</h5>
-      <h5 class="left-align">Left alignment</h5>
-      <h5 class="right-align">Right alignment</h5>
-    </section>
-    <section class="container grey lighten-2 blue-text box valign-wrapper">
-      <h5 class="">Vertical alignment</h5>
-    </section>
-    <section class="container">
-      <p class="truncate">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident ea officia magni laboriosam quisquam, ex possimus ab illo at nemo quaerat vitae natus architecto asperiores aliquam fuga. Blanditiis, perferendis voluptatem.</p>
-    </section>
-    <section class="container">
-      <h4>Buttons</h4>
-      <button class="btn">Normal Button</button>
-      <button class="btn-small">Small Button</button>
-      <button class="btn-large">Large Button</button>
-      <button class="btn pink">Pink Button</button>
-      <button class="btn disabled">Disabled Button</button>
-      <button class="btn waves-effect waves-dark">Dark Waves effect Button</button>
-      <button class="btn waves-effect waves-light">Light Waves effect Button</button>
-      <h4>Link tag button</h4>
-      <a href="#" class="btn">Link tag button</a>
-      <h4>Div tag button</h4>
-      <div class="btn">I am a div tag</div>
-      <h4>Floating button</h4>
-      <a href="#" class="btn-floating blue pulse"></a>
-    </section>
-    <section class="container">
-      <h4><a href="https://material.io/tools/icons/?style=baseline" target="_blank">Icons</a></h4>
-      <i class="material-icons red-text">error</i>
-      <i class="material-icons yellow-text text-darken-2">warning</i>
-      <i class="material-icons grey-text">cloud</i>
-      <i class="material-icons blue-text">folder</i>
-      <h4>Icons on buttons</h4>
-      <a href="#" class="btn indigo">
-        <span>Send</span>
-        <i class="material-icons right">send</i>
-      </a>
-      <a href="#" class="btn pink waves-effect waves-dark">
-        <span>Email</span>
-        <i class="material-icons left">email</i>
-      </a>
-      <h4>Icons on floating buttons</h4>
-      <a href="#" class="btn-floating btn-large blue pulse">
-        <i class="material-icons">add</i>
-      </a>
-      <a href="#" class="btn-floating btn-small red pulse">
-        <i class="material-icons">remove</i>
-      </a>
-      <a href="#" class="btn-floating orange pulse">
-        <i class="material-icons">edit</i>
-      </a>
-    </section>
-    <section class="container shadows">
-      <h4>Shadows & Depth</h4>
-      <div class="row">
-        <div class="col s2">
-          <div class="empty"></div>
-        </div>
-        <div class="col s2">
-          <div class="empty z-depth-1"></div>
-        </div>
-        <div class="col s2">
-          <div class="empty z-depth-2"></div>
-        </div>
-        <div class="col s2">
-          <div class="empty z-depth-3"></div>
-        </div>
-        <div class="col s2">
-          <div class="empty z-depth-4"></div>
-        </div>
-        <div class="col s2">
-          <div class="empty z-depth-5"></div>
-        </div>
-      </div>
-    </section>
-    <section class="container collections ">
-      <h4>Collections</h4>
-      <ul class="collection with-header">
-        <li class="collection-header grey darken-4">
-          <h4>List of items</h4>
-        </li>
-        <li class="collection-item grey darken-4 avatar">
-          <i class="material-icons circle blue">person</i>
-          <span class="title">Item</span>
-          <p class="grey-text">Black belt</p>
-          <a href="#" class="secondary-content">
-            <i class="material-icons blue-text">email</i>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar-fixed scrollspy" id="home">
+      <nav class="nav-wrapper grey darken-3">
+        <div class="container">
+          <a href="#home" class="brand-logo">Photo Ninja</a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
           </a>
-        </li>
-        <li class="collection-item grey darken-4 avatar">
-          <i class="material-icons circle blue">person</i>
-          <span class="title">Item</span>
-          <p class="grey-text">Black belt</p>
-          <a href="#" class="secondary-content">
-            <i class="material-icons blue-text">email</i>
-          </a>
-        </li>
-        <li class="collection-item grey darken-4 avatar">
-          <i class="material-icons circle blue">person</i>
-          <span class="title">Item</span>
-          <p class="grey-text">Black belt</p>
-          <a href="#" class="secondary-content">
-            <i class="material-icons blue-text">email</i>
-          </a>
-        </li>
-      </ul>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#photos">Photo's</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#" class="tooltipped btn-floating btn-small purple lighten-2" data-tooltip="Join me on Instagram">
+              <i class="fab fa-instagram"></i>
+            </a></li>
+            <li><a href="#" class="tooltipped btn-floating btn-small blue darken-4" data-tooltip="Join me on LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a></li>
+            <li><a href="#" class="tooltipped btn-floating btn-small blue" data-tooltip="Join me on Twitter">
+              <i class="fab fa-twitter"></i>
+            </a></li>
+            <li><a href="#" class="tooltipped btn-floating btn-small red darken-1" data-tooltip="Join me on Google">
+              <i class="fab fa-google"></i>
+            </a></li>
+          </ul>
+          <ul class="sidenav grey lighten-2" id="mobile-menu">
+            <li><a href="#photo">Photo's</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Photos / Grid -->
+    <section class="container scrollspy section" id="photos">
+      <div class="row">
+        <section class="col s12 l4">
+          <img src="img/portrait.jpg" alt="Portraits" class="responsive-img materialboxed">
+        </section>
+        <section class="col s12 l6 offset-l2">
+          <h2 class="indigo-text text-darken-4">Portraits</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo tempora voluptas, facilis temporibus qui aliquam ducimus quas delectus labore fugiat! Harum, illum obcaecati consectetur veritatis explicabo quia cumque perspiciatis quibusdam!</p>
+        </section>
+      </div>
+      <div class="row">
+        <section class="col s12 l4 push-l7 offset-l1">
+          <img src="img/city.jpg" alt="City" class="responsive-img materialboxed">
+        </section>
+        <section class="col s12 l6 pull-l5">
+          <h2 class="indigo-text text-darken-4">City scapes</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo tempora voluptas, facilis temporibus qui aliquam ducimus quas delectus labore fugiat! Harum, illum obcaecati consectetur veritatis explicabo quia cumque perspiciatis quibusdam!</p>
+        </section>
+      </div>
+      <div class="row">
+        <section class="col s12 l4">
+          <img src="img/nature.jpg" alt="Nature" class="responsive-img materialboxed">
+        </section>
+        <section class="col s12 l6 offset-l2">
+          <h2 class="indigo-text text-darken-4">Nature</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo tempora voluptas, facilis temporibus qui aliquam ducimus quas delectus labore fugiat! Harum, illum obcaecati consectetur veritatis explicabo quia cumque perspiciatis quibusdam!</p>
+        </section>
+      </div>
     </section>
-    <section class="container">
-      <h4>Cards</h4>
-      <section class="row">
+    <!-- Parallax -->
+    <section class="parallax-container street">
+      <div class="parallax">
+        <img src="img/street.jpg" alt="Parallax" class="responsive-img">
+      </div>
+    </section>
+    <!-- Services / tabs -->
+    <section class="container scrollspy section" id="services">
+      <div class="row">
+        <div class="col s12 l5">
+          <h2 class="indigo-text text-darken-4">What I do...</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reprehenderit ducimus! Alias eaque asperiores iusto, ab voluptatum placeat et corporis ratione inventore illum fugit mollitia expedita pariatur magni cupiditate sapiente?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reprehenderit ducimus! Alias eaque asperiores iusto, ab voluptatum placeat et corporis ratione inventore illum fugit mollitia expedita pariatur magni cupiditate sapiente?</p>
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <ul class="tabs">
+            <li class="tab col s6">
+              <a href="#photography" class="indigo-text text-darker-4">Photography</a>
+            </li>
+            <li class="tab col s6">
+              <a href="#editing" class="indigo-text text-darker-4">Editing</a>
+            </li>
+          </ul>
+          <div class="col s12" id="photography">
+            <p class="flow-text indigo-text text-darken-4">PHOTOGRAPHY</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quae pariatur eveniet officiis beatae aperiam sint. Aliquam repellendus eum delectus consequatur porro itaque voluptas temporibus ea eaque, animi similique in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quae pariatur eveniet officiis beatae aperiam sint. Aliquam repellendus eum delectus consequatur porro itaque voluptas temporibus ea eaque, animi similique in.</p>
+          </div>
+          <div class="col s12" id="editing">
+            <p class="flow-text indigo-text text-darken-4">EDITING</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quae pariatur eveniet officiis beatae aperiam sint. Aliquam repellendus eum delectus consequatur porro itaque voluptas temporibus ea eaque, animi similique in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quae pariatur eveniet officiis beatae aperiam sint. Aliquam repellendus eum delectus consequatur porro itaque voluptas temporibus ea eaque, animi similique in.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Parallax -->
+    <section class="parallax-container">
+      <div class="parallax">
+        <img src="img/stars.jpg" alt="Parallax" class="responsive-img">
+      </div>
+    </section>
+    <!-- Contact form -->
+    <section class="container scrollspy section" id="contact">
+      <div class="row">
         <div class="col s12 l6">
-          <article class="card green darken-4">
-            <div class="card-image">
-              <img class="responsive-img" src="https://u.tfstatic.com/restaurant_photos/885/300885/169/612/tux-suggerimento-dello-chef-d9f27.jpg" alt="Tux">
-              <button class="btn-floating pink pulse halfway-fab">
-                <i class="material-icons">favorite</i>
-              </button>
-            </div>
-            <div class="card-content">
-              <header class="card-title">
-                <h5>Title of card</h5>
-              </header>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid deserunt facilis ipsam neque labore quae dolor? Vitae sunt cumque, iure fugit, incidunt dolorum a labore voluptas aut, rerum facere tempora.</p>
-            </div>
-            <footer class="card-action">
-              <a href="#">More Details</a>
-              <a href="#">More Details</a>
-            </footer>
-          </article>
+          <h2 class="indigo-text text-darken-4">Get In Touch</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis rerum veritatis incidunt, debitis fuga nostrum alias amet tempora sint dolor dignissimos laudantium nobis, nulla dolores provident eligendi maiores aliquid fugit?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis rerum veritatis incidunt, debitis fuga nostrum alias amet tempora sint dolor dignissimos laudantium nobis, nulla dolores provident eligendi maiores aliquid fugit?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis rerum veritatis incidunt, debitis fuga nostrum alias amet tempora sint dolor dignissimos laudantium nobis, nulla dolores provident eligendi maiores aliquid fugit?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis rerum veritatis incidunt, debitis fuga nostrum alias amet tempora sint dolor dignissimos laudantium nobis, nulla dolores provident eligendi maiores aliquid fugit?</p>
         </div>
         <div class="col s12 l6">
-          <article class="card green darken-4">
-            <div class="card-image">
-              <img class="responsive-img" src="https://u.tfstatic.com/restaurant_photos/501/66501/169/612/ristorante-la-scala-la-entrata-a3ed9.jpg"
-                alt="Tux">
-              <button class="btn-floating pink pulse halfway-fab">
-                <i class="material-icons">favorite</i>
-              </button>
+          <form>
+            <div class="input-field">
+              <i class="material-icons prefix">email</i>
+              <input type="email" id="email">
+              <label for="email">Your Email</label>
             </div>
-            <div class="card-content">
-              <header class="card-title">
-                <h5>Title of card</h5>
-              </header>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid deserunt facilis ipsam neque labore quae
-                dolor? Vitae sunt cumque, iure fugit, incidunt dolorum a labore voluptas aut, rerum facere tempora.</p>
+            <div class="input-field">
+              <i class="material-icons prefix">message</i>
+              <textarea id="message" class="materialize-textarea"></textarea>
+              <label for="message">Your Message</label>
             </div>
-            <footer class="card-action">
-              <a href="#">More Details</a>
-              <a href="#">More Details</a>
-            </footer>
-          </article>
+            <div class="input-field">
+              <input type="text" id="date" class="datepicker">
+              <label for="date">Choose a date you need me for...</label>
+            </div>
+            <div class="input-field">
+              <h6>Services required...</h6>
+              <p>
+                <label>
+                  <input type="checkbox">
+                  <span>Photography</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox">
+                  <span>Editing</span>
+                </label>
+              </p>
+            </div>
+            <div class="input-field center">
+              <button class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="page-footer grey darken-3">
+      <section class="container">
+        <div class="row">
+          <div class="col s12 l6">
+            <h5>About Me</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad amet deleniti aut dolorum iste rem enim. Temporibus inventore, totam explicabo quia magni assumenda obcaecati error? Explicabo, labore debitis? Perferendis, perspiciatis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad amet deleniti aut dolorum iste rem enim. Temporibus inventore, totam explicabo quia magni assumenda obcaecati error? Explicabo, labore debitis? Perferendis, perspiciatis!</p>
+          </div>
+          <div class="col s12 l4 offset-l2">
+            <h5>Connect</h5>
+            <ul>
+              <li>
+                <i class="fab fa-google red-text text-darken-1"></i>
+                <a href="#" class="grey-text text-lighten-3">Google</a>
+              </li>
+              <li>
+                <i class="fab fa-twitter blue-text"></i>
+                <a href="#" class="grey-text text-lighten-3">Twitter</a>
+              </li>
+              <li>
+                <i class="fab fa-linkedin blue-text text-darken-4"></i>
+                <a href="#" class="grey-text text-lighten-3">LinkedIn</a>
+              </li>
+              <li>
+                <i class="fab fa-instagram purple-text text-lighten-2"></i>
+                <a href="#" class="grey-text text-lighten-3">Instagram</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
-    </section>
+      <div class="footer-copyright grey darken-4">
+        <div class="container center-align">
+          &copy; 2018 Photo Ninja
+        </div>
+      </div>
+    </footer>
 
   <body>
 </html>
